@@ -22,6 +22,7 @@ l = [
 photo_groups = {}
 
 for i in l:
+	photo_name_outer = None
 	for key, value in i.items():
 		if key == "name":
 			photo_name_outer = value
